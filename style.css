@@ -3,6 +3,9 @@ html, body {
   padding: 0;
   background-image: url("cats.png");
   background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 body {
