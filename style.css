@@ -1,4 +1,4 @@
-html, body {
+/*body {
   margin: 0;
   padding: 0;
   background-image: url("cats.png");
@@ -11,7 +11,7 @@ html, body {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-}
+}*/
 
 h1 {
     background-color:Tomato;
