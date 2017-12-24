@@ -1,28 +1,51 @@
-/*body {
-  margin: 0;
-  padding: 0;
-  background-image: url("cats.png");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    background-color: lightblue;
+    /*background-image: url("cats.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image-width:100%;*/
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+/*body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }*/
 
+header {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* of body width */
+    height: 160px;
+    text-align:center;
+    background-color: #AAAAAA;
+}
+
+main {
+    float: left;
+    width: 600px;
+    text-align:center;
+}
+
 h1 {
-    background-color:Tomato;
+    font-family: sans-serif;
+    /*background-color:Tomato;*/
 }
 
 h2 {
-    background-color:Tomato;
+    font-family: sans-serif;
+    /*background-color:Tomato;*/
 }
 
 h3 {
-    background-color:Tomato;
+    font-family: sans-serif;
+    /*background-color:Tomato;*/
 }
 
 
