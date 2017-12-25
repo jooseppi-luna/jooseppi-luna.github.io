@@ -9,12 +9,11 @@ body {
 }
 
 header {
-    /*float: left;*/
     margin: 0;
     padding: 0;
     width: 100%; /* of body width */
-    min-width: 780;
-    height: 137px;
+    min-width: 730;
+    height: 138px;
     text-align:center;
     background: rgba(175, 175, 175, 0.7);
 }
@@ -23,8 +22,7 @@ main {
     position: relative;
     top: 0px;
     margin: 0 auto; padding: 20 40 30 40;
-    width: 780px;
-    /*height: 100%;*/
+    width: 650px;
     display: block;
     text-align: left;
     background: rgba(175, 175, 175, 0.7);
@@ -38,7 +36,7 @@ main p {
 main h2 {
     display: inline;
     font-family: sans-serif;
-    padding: 0;
+    margin 0; padding: 0 0 0 0;
 }
 
 #me {
@@ -50,7 +48,7 @@ main h2 {
 h1 {
     font-size: 250%;
     font-family: sans-serif;
-    padding: 7;
+    padding: 15 7 0 7;
     margin: 0;
     /*background-color:Tomato;*/
 }
