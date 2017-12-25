@@ -1,15 +1,23 @@
+/*html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    
-    background-color: lightblue;
-    /*background-image: url("cats.png");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-image-width:100%;*/
+
+    background: url(flannel.gif);
+    background-repeat: xy;
+/*    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
 }
 
 /*body {
@@ -23,30 +31,62 @@ header {
     padding: 0;
     width: 100%; /* of body width */
     min-width: 800;
-    height: 160px;
+    height: 140px;
     text-align:center;
     background-color: #AAAAAA;
+    opacity: 0.7;
 }
 
 main {
-    float: left;
+    margin: 0 auto; padding: 0;
     width: 600px;
     text-align:center;
+    /*background-color: #AAAAAA;
+    opacity: 0.7;*/
 }
 
 h1 {
+    font-size: 250%;
     font-family: sans-serif;
+    padding: 7;
+    margin: 0;
     /*background-color:Tomato;*/
 }
 
 h2 {
+    font-size: 125%;
     font-family: sans-serif;
+    padding: 7;
+    margin: 0;
     /*background-color:Tomato;*/
 }
 
 h3 {
+    font-size: 100%;
     font-family: sans-serif;
+    padding: 7;
+    margin: 0;
     /*background-color:Tomato;*/
 }
 
-
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    margin: 0 auto; padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+.nav a:hover {
+    background: #fff;
+}
