@@ -22,6 +22,7 @@ header {
     margin: 0;
     padding: 0;
     width: 100%; /* of body width */
+    min-width: 800;
     height: 160px;
     text-align:center;
     background-color: #AAAAAA;
