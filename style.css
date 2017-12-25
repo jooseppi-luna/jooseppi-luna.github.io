@@ -13,7 +13,7 @@ header {
     padding: 0;
     width: 100%; /* of body width */
     min-width: 730;
-    height: 138px;
+    height: 140px;
     text-align:center;
     background: rgba(175, 175, 175, 0.7);
 }
@@ -91,5 +91,5 @@ p {
     text-decoration: none;
 }
 .nav a:hover {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
 }
