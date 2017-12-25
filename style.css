@@ -81,6 +81,7 @@ p {
 }
 .nav li{
     display:inline;
+    font-size: 105%;
 }
 .nav a{
     display:inline-block;
