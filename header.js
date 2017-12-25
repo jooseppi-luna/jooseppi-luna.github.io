@@ -1,5 +1,5 @@
 document.write('\
-<h1>Jooseppi Luna</h1>\
+<h1><a href=index.html>Jooseppi Luna</a></h1>\
 <h2>Aspiring sotware engineer with a passion for efficiency and simplicity</h2>\
 \
 <ul class="nav">\
